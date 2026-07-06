@@ -37,6 +37,23 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ---
 
+## 💼 Professional History
+
+*   **Vanderbilt University Mathematics Department** | *Platform Architect & Software Engineer* (Jan – May 2024)
+    *   Engineered **Proofdesk**, a collaborative Web IDE sandbox, reducing textbook compilation latency by **72%** (from 1.1s to **300ms**) via client-side WebAssembly (Pyodide).
+    *   Deployed WebSocket sandboxed terminal runtimes (`node-pty`) inside resource-restricted Docker containers (512MB RAM limit).
+    *   Architected a distributed background worker task queue using **Redis and BullMQ** with local fallback loops.
+*   **VU-BEAM Lab, Vanderbilt University** | *Software Engineer Research Assistant* (Oct 2025 – Present)
+    *   Designed high-throughput data processing loaders on multi-GPU nodes to handle real-time medical sensor streams.
+    *   Optimized core numerical compute pipelines in PyTorch, reducing execution latency by **40%**.
+
+## 🎓 Academic Credentials
+
+*   🏫 **Vanderbilt University** (Nashville, TN) | Master of Science in Computer Science (*Expected Jun 2027*)
+*   🎓 **Vellore Institute of Technology (VIT)** (Chennai, India) | Bachelor of Technology in Computer Science (*Graduated May 2025*)
+
+---
+
 ## ⚡ Flagship Systems & Implementations
 
 ### 💾 [LSM-Tree Key-Value Engine](https://github.com/harsharajkumar-273/lsm_tree) (C++20, io_uring)
