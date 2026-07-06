@@ -65,7 +65,7 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ## 🔬 Publications & Systems Recognition
 
-*   **IEEE Published (2025)**: *Hybrid API Vulnerability Detection System using ML Classification* — Built static AST parsers and runtime telemetry loops to automate RESTful endpoint discovery and security verification.
+*   **IEEE Published (2025)**: *An Integrated GCN–GAT–AE Framework for Robust Anomaly Detection in Industrial IoT Environments* — Developed an integrated deep learning framework combining Graph Convolutional Networks (GCN), Graph Attention Networks (GAT), and Autoencoders (AE) for robust and noise-resilient anomaly detection in Industrial IoT sensor networks.
 *   **Vanderbilt Global Good Hackathon Finalist (2025)**: Co-developed **[ARIA Pathfinder](https://github.com/harsharajkumar-273/ARIA)**, a PostGIS-backed disaster response routing system utilizing Dijkstra with time-decaying edge weight equations.
 *   **GDSC Technical Lead (2024–2025)**: Co-lead of the Technical Division for the Google Developer Student Club (GDSC) at VIT, conducting technical workshops for 200+ student members.
 
