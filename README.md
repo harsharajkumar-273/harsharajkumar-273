@@ -102,6 +102,14 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ---
 
+## Badges
+
+### My ELUSOC 2026 Admin Badges!
+
+<a href="https://www.edulinkup.dev/elusoc/profile/harsharajkumar-273">
+  <img src="https://www.edulinkup.dev/elusoc/images/ticket/overseer.png" width="60" alt="Overseer" />
+</a>
+
 ## 🔗 Connect with Me
 *   **LinkedIn**: [linkedin.com/in/harsharajkumar273](https://linkedin.com/in/harsharajkumar273)
 *   **SDE Portfolio**: [harsharajkumar-273.github.io/SDE-Portfolio/](https://harsharajkumar-273.github.io/SDE-Portfolio/)
