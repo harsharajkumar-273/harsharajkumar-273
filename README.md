@@ -109,6 +109,7 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 <a href="https://www.edulinkup.dev/elusoc/profile/harsharajkumar-273">
   <img src="https://www.edulinkup.dev/elusoc/images/ticket/overseer.png" width="60" alt="Overseer" />
   <img src="https://www.edulinkup.dev/elusoc/images/ticket/warden.png" width="60" alt="Warden" />
+  <img src="https://www.edulinkup.dev/elusoc/images/ticket/commander.png" width="60" alt="Commander" />
 </a>
 
 ## 🔗 Connect with Me
