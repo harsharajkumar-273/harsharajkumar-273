@@ -44,7 +44,7 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
     *   Deployed WebSocket sandboxed terminal runtimes (`node-pty`) inside resource-restricted Docker containers (512MB RAM limit).
     *   Architected a distributed background worker task queue using **Redis and BullMQ** with local fallback loops.
 *   **VU-BEAM Lab, Vanderbilt University** | *Research Assistant* (Oct 2025 – Present)
-    *   Designed **DAC-Learn**, a self-supervised ultrasound model evaluated against baselines on the PICMUS benchmark.
+    *   Designed **ReCL (Reconstructive Contrastive Learning)**, a self-supervised ultrasound model evaluated against baselines on the PICMUS benchmark.
     *   Achieved **85% improvement** in image contrast (CNR: 3.5+ dB); outperformed CycleGAN by 20% on clinical cardiac data.
     *   Optimized offline batch-processing data pipelines across **10,000+** ultrasound scan frames, reducing multi-GPU training execution time by **40%**.
 
