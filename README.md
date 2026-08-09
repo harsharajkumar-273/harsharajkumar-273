@@ -39,13 +39,14 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ## 💼 Professional Experience
 
-*   **Vanderbilt University Mathematics Department** | *Technical Assistant — Cloud IDE & Web Compiler Engineering* (Sep 2025 – Present)
+*   **Vanderbilt University Mathematics Department** | *Platform Architect & Software Engineer* (Jan – May 2024)
     *   Engineered **Proofdesk**, a collaborative Web IDE sandbox, reducing compilation feedback latency by **72%** (from 1.1s to **300ms**) via client-side WebAssembly (Pyodide).
     *   Deployed WebSocket sandboxed terminal runtimes (`node-pty`) inside resource-restricted Docker containers (512MB RAM limit).
     *   Architected a distributed background worker task queue using **Redis and BullMQ** with local fallback loops.
 *   **VU-BEAM Lab, Vanderbilt University** | *Research Assistant* (Oct 2025 – Present)
-    *   Designed high-throughput data processing loaders on multi-GPU nodes to handle real-time sensor streams.
-    *   Optimized core numerical compute pipelines in PyTorch, reducing execution latency by **40%**.
+    *   Designed **DAC-Learn**, a self-supervised ultrasound model evaluated against baselines on the PICMUS benchmark.
+    *   Achieved **85% improvement** in image contrast (CNR: 3.5+ dB); outperformed CycleGAN by 20% on clinical cardiac data.
+    *   Optimized offline batch-processing data pipelines across **10,000+** ultrasound scan frames, reducing multi-GPU training execution time by **40%**.
 
 ## 🎓 Academic Credentials
 
@@ -62,30 +63,28 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 *   Engineered a concurrent, lock-free SkipList MemTable with atomic CAS pointers and a custom bump-pointer memory Arena.
 *   Restricted read lookup penalties to at most one CPU cache line miss using 64-byte cache-aligned vectorized Block Bloom filters.
 
-### 📈 [PulseStream Telemetry Pipeline](https://github.com/harsharajkumar-273/PulseStream) (TypeScript, Redpanda/Kafka)
-*   Designed a horizontally scalable telemetry ingestion gateway, sustaining **50,000+ metrics/sec** across distributed Redpanda (Kafka-compatible) event streams.
-*   Guaranteed sub-**8ms** HTTP 202 ingestion ACKs by decoupling write paths from persistence.
-*   Implemented double-layer idempotency utilizing **Redis `SETNX` edge locks** and atomic PostgreSQL upserts executing 1,000-row batch transactions in **< 15ms**.
-
 ### 📐 [Proofdesk Collaborative Web IDE](https://github.com/harsharajkumar-273/proofdesk) (React, Node.js, WASM, Docker)
 *   Architected a browser-based collaborative textbook IDE with a Monaco-editor frontend and sandbox terminals.
 *   Ported the compiler pipeline to the client using **WebAssembly (Pyodide)**, reducing book compilation latency by **72%** (from 1.1s to **300ms**).
 *   Engineered isolated, resource-restricted sandbox container runs using WebSocket streams, `node-pty`, and Docker.
 *   Implemented a resilient, distributed task queue worker pool using **Redis and BullMQ** with local fallback loops.
 
-### 🛡️ [Production API Gateway](https://github.com/harsharajkumar-273/API-gateway) (Node.js, Redis)
-*   Designed a highly resilient gateway routing layer mapping auth, billing, and user microservices.
-*   Built custom **SRE Circuit Breakers** supporting CLOSED, OPEN, and HALF-OPEN states to mitigate cascading microservice failures.
-*   Programmed a concurrent sliding-window rate limiter using **Redis Sorted Sets (zsets)** with in-memory fail-open fallback.
-*   Benchmarked to sustain over **25,000 requests per second** (P99 latency < 15ms).
+### 📈 [PulseStream Telemetry Pipeline](https://github.com/harsharajkumar-273/PulseStream) (TypeScript, Redpanda/Kafka)
+*   Designed a horizontally scalable telemetry ingestion gateway, sustaining **50,000+ metrics/sec** across distributed Redpanda (Kafka-compatible) event streams.
+*   Guaranteed sub-**8ms** HTTP 202 ingestion ACKs by decoupling write paths from persistence using device ID hash partition keys.
+*   Implemented double-layer idempotency utilizing **Redis `SETNX` edge locks** and atomic PostgreSQL upserts executing 1,000-row batch transactions in **< 15ms**.
+
+### 📡 [Repost Radar Deduplication Engine](https://github.com/harsharajkumar-273/Repost-Radar) (C++20, AVX2 SIMD, Devvit)
+*   Developed a high-performance text deduplication engine in C++20 using zero-copy token shingling (`std::string_view`), reducing memory allocations by **65%**.
+*   Parallelized 128 universal hash variants across 256-bit CPU registers using **AVX2 SIMD vectorization primitives**, achieving a **4.2x speedup** in MinHash generation (**22,450+ tokenized streams/sec**).
+*   Engineered a concurrent, slab-allocated LSH index using reader-writer locks (`std::shared_mutex`) productized as a Reddit Developer Platform (Devvit) moderation app.
 
 ---
 
 ## 🔬 Publications & Open Source Recognition
 
-*   **PyTorch Core Contributor (2025)**: Merged **[PR #191092](https://github.com/pytorch/pytorch/pull/191092)** in the PyTorch core repository (reviewed by PyTorch Core Maintainers).
+*   **PyTorch Core Contributor (2026)**: Merged **[PR #191092](https://github.com/pytorch/pytorch/pull/191092)** in the PyTorch core repository (reviewed by PyTorch Core Maintainers).
 *   **IEEE Published Paper (2025)**: *An Integrated GCN–GAT–AE Framework for Robust Anomaly Detection in Industrial IoT Environments* (Published in IEEE Xplore).
-*   **IEEE Best Paper Award (2024)**: *Paper2Story: Multi-Model Narrative Generation Pipeline*.
 *   **Vanderbilt Global Good Hackathon Finalist (2025)**: Co-developed **[ARIA Pathfinder](https://github.com/harsharajkumar-273/ARIA)**, a PostGIS-backed disaster response routing system utilizing Dijkstra with time-decaying edge weight equations.
 *   **GDSC Technical Lead (2024–2025)**: Co-lead of the Technical Division for Google Developer Student Club (GDSC), conducting technical workshops for 200+ student members.
 
