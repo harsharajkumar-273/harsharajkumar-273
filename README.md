@@ -42,7 +42,7 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 *   **Amplify GenAI Innovation (AGI) Center, Vanderbilt University** | *Software Engineer — GenAI Platform & Systems* (Sep 2026 – Present)
     *   Engineering scalable GenAI platform tooling, API integrations, and multi-agent workflows across Vanderbilt's College of Connected Computing.
     *   Building high-throughput LLM middleware services and vector indexing pipelines to accelerate AI application deployment.
-*   **VU-BEAM Lab, Vanderbilt University** | *Research Assistant* (Oct 2025 – May 2026)
+*   **VU-BEAM Lab, Vanderbilt University** | *Research Assistant* (Oct 2025 – Aug 2026)
     *   Designed **ReCL (Reconstructive Contrastive Learning)**, a self-supervised ultrasound model evaluated against baselines on the PICMUS benchmark.
     *   Achieved **85% improvement** in image contrast (CNR: 3.5+ dB); outperformed CycleGAN by 20% on clinical cardiac data.
     *   Optimized offline batch-processing data pipelines across **10,000+** ultrasound scan frames, reducing multi-GPU training execution time by **40%**.
