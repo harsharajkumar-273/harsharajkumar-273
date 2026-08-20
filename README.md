@@ -42,7 +42,7 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 *   **Amplify GenAI Innovation (AGI) Center, Vanderbilt University** | *Software Engineer — GenAI Platform & Systems* (Sep 2026 – Present)
     *   Engineering scalable GenAI platform tooling, API integrations, and multi-agent workflows across Vanderbilt's College of Connected Computing.
     *   Building high-throughput LLM middleware services and vector indexing pipelines to accelerate AI application deployment.
-*   **VU-BEAM Lab, Vanderbilt University** | *Research Assistant* (Oct 2025 – Present)
+*   **VU-BEAM Lab, Vanderbilt University** | *Research Assistant* (Oct 2025 – May 2026)
     *   Designed **ReCL (Reconstructive Contrastive Learning)**, a self-supervised ultrasound model evaluated against baselines on the PICMUS benchmark.
     *   Achieved **85% improvement** in image contrast (CNR: 3.5+ dB); outperformed CycleGAN by 20% on clinical cardiac data.
     *   Optimized offline batch-processing data pipelines across **10,000+** ultrasound scan frames, reducing multi-GPU training execution time by **40%**.
@@ -65,10 +65,10 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 *   Guaranteed sub-**8ms** HTTP 202 ingestion ACKs by decoupling write paths from persistence using device ID hash partition keys.
 *   Implemented double-layer idempotency utilizing **Redis `SETNX` edge locks** and atomic PostgreSQL upserts executing 1,000-row batch transactions in **< 15ms**.
 
-### 📡 [ARIA Real-Time Disaster Pathfinder](https://github.com/harsharajkumar-273/ARIA) (Node.js, PostgreSQL/PostGIS, WebSockets)
-*   Built a real-time crisis routing platform modeling urban infrastructure as spatial PostGIS graphs, evaluating optimal routes via Dijkstra pathfinding with time-decaying hazard weights.
-*   Implemented Socket.io WebSocket event streams to push sub-second hazard zone updates to active responder clients upon telemetry ingestion.
-*   Recognized as a **Finalist** at the Vanderbilt Global Good Hackathon.
+### 🤖 [revert-ai Automated Code Reviewer](https://github.com/harsharajkumar-273/revert-ai) (TypeScript, GitHub Webhooks, AST, LLM)
+*   Architected an automated developer tool published on NPM that integrates with GitHub Webhooks to intercept pull requests and execute AST-based static code analysis.
+*   Engineered an asynchronous LLM code review pipeline parsing git diff chunks, detecting syntax errors, security flaws, and performance anti-patterns before posting inline PR review comments.
+*   Implemented local caching and token optimization algorithms to reduce LLM API latency by **60%** while maintaining sub-second webhook processing SLAs.
 
 ### 💾 [LSM-Tree Key-Value Engine](https://github.com/harsharajkumar-273/lsm_tree) (C++20, io_uring)
 *   Engineered a high-performance LSM-Tree database storage engine in C++20.
