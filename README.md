@@ -39,14 +39,17 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ## 💼 Professional Experience
 
-*   **Vanderbilt University Mathematics Department** | *Platform Architect & Software Engineer* (Jan – May 2024)
-    *   Engineered **Proofdesk**, a collaborative Web IDE sandbox, reducing compilation feedback latency by **72%** (from 1.1s to **300ms**) via client-side WebAssembly (Pyodide).
-    *   Deployed WebSocket sandboxed terminal runtimes (`node-pty`) inside resource-restricted Docker containers (512MB RAM limit).
-    *   Architected a distributed background worker task queue using **Redis and BullMQ** with local fallback loops.
+*   **Amplify GenAI Innovation (AGI) Center, Vanderbilt University** | *Software Engineer — GenAI Platform & Systems* (Sep 2026 – Present)
+    *   Engineering scalable GenAI platform tooling, API integrations, and multi-agent workflows across Vanderbilt's College of Connected Computing.
+    *   Building high-throughput LLM middleware services and vector indexing pipelines to accelerate AI application deployment.
 *   **VU-BEAM Lab, Vanderbilt University** | *Research Assistant* (Oct 2025 – Present)
     *   Designed **ReCL (Reconstructive Contrastive Learning)**, a self-supervised ultrasound model evaluated against baselines on the PICMUS benchmark.
     *   Achieved **85% improvement** in image contrast (CNR: 3.5+ dB); outperformed CycleGAN by 20% on clinical cardiac data.
     *   Optimized offline batch-processing data pipelines across **10,000+** ultrasound scan frames, reducing multi-GPU training execution time by **40%**.
+*   **Vanderbilt University Mathematics Department** | *Platform Architect & Software Engineer* (Jan – May 2024)
+    *   Engineered **Proofdesk**, a collaborative Web IDE sandbox, reducing compilation feedback latency by **72%** (from 1.1s to **300ms**) via client-side WebAssembly (Pyodide).
+    *   Deployed WebSocket sandboxed terminal runtimes (`node-pty`) inside resource-restricted Docker containers (512MB RAM limit).
+    *   Architected a distributed background worker task queue using **Redis and BullMQ** with local fallback loops.
 
 ## 🎓 Academic Credentials
 
@@ -57,27 +60,21 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ## ⚡ Flagship Systems & Implementations
 
+### 📈 [PulseStream Telemetry Pipeline](https://github.com/harsharajkumar-273/PulseStream) (TypeScript, Redpanda/Kafka, KEDA)
+*   Designed a horizontally scalable telemetry ingestion gateway, sustaining **50,000+ metrics/sec** across distributed Redpanda (Kafka-compatible) event streams.
+*   Guaranteed sub-**8ms** HTTP 202 ingestion ACKs by decoupling write paths from persistence using device ID hash partition keys.
+*   Implemented double-layer idempotency utilizing **Redis `SETNX` edge locks** and atomic PostgreSQL upserts executing 1,000-row batch transactions in **< 15ms**.
+
+### 📡 [ARIA Real-Time Disaster Pathfinder](https://github.com/harsharajkumar-273/ARIA) (Node.js, PostgreSQL/PostGIS, WebSockets)
+*   Built a real-time crisis routing platform modeling urban infrastructure as spatial PostGIS graphs, evaluating optimal routes via Dijkstra pathfinding with time-decaying hazard weights.
+*   Implemented Socket.io WebSocket event streams to push sub-second hazard zone updates to active responder clients upon telemetry ingestion.
+*   Recognized as a **Finalist** at the Vanderbilt Global Good Hackathon.
+
 ### 💾 [LSM-Tree Key-Value Engine](https://github.com/harsharajkumar-273/lsm_tree) (C++20, io_uring)
 *   Engineered a high-performance LSM-Tree database storage engine in C++20.
 *   Implemented asynchronous, non-blocking Write-Ahead Log (WAL) appends utilizing **Linux `io_uring` with `O_DIRECT`**, completely bypassing the kernel page cache (**254,000+ ops/sec**).
 *   Engineered a concurrent, lock-free SkipList MemTable with atomic CAS pointers and a custom bump-pointer memory Arena.
 *   Restricted read lookup penalties to at most one CPU cache line miss using 64-byte cache-aligned vectorized Block Bloom filters.
-
-### 📐 [Proofdesk Collaborative Web IDE](https://github.com/harsharajkumar-273/proofdesk) (React, Node.js, WASM, Docker)
-*   Architected a browser-based collaborative textbook IDE with a Monaco-editor frontend and sandbox terminals.
-*   Ported the compiler pipeline to the client using **WebAssembly (Pyodide)**, reducing book compilation latency by **72%** (from 1.1s to **300ms**).
-*   Engineered isolated, resource-restricted sandbox container runs using WebSocket streams, `node-pty`, and Docker.
-*   Implemented a resilient, distributed task queue worker pool using **Redis and BullMQ** with local fallback loops.
-
-### 📈 [PulseStream Telemetry Pipeline](https://github.com/harsharajkumar-273/PulseStream) (TypeScript, Redpanda/Kafka)
-*   Designed a horizontally scalable telemetry ingestion gateway, sustaining **50,000+ metrics/sec** across distributed Redpanda (Kafka-compatible) event streams.
-*   Guaranteed sub-**8ms** HTTP 202 ingestion ACKs by decoupling write paths from persistence using device ID hash partition keys.
-*   Implemented double-layer idempotency utilizing **Redis `SETNX` edge locks** and atomic PostgreSQL upserts executing 1,000-row batch transactions in **< 15ms**.
-
-### 📡 [Repost Radar Deduplication Engine](https://github.com/harsharajkumar-273/Repost-Radar) (C++20, AVX2 SIMD, Devvit)
-*   Developed a high-performance text deduplication engine in C++20 using zero-copy token shingling (`std::string_view`), reducing memory allocations by **65%**.
-*   Parallelized 128 universal hash variants across 256-bit CPU registers using **AVX2 SIMD vectorization primitives**, achieving a **4.2x speedup** in MinHash generation (**22,450+ tokenized streams/sec**).
-*   Engineered a concurrent, slab-allocated LSH index using reader-writer locks (`std::shared_mutex`) productized as a Reddit Developer Platform (Devvit) moderation app.
 
 ---
 
