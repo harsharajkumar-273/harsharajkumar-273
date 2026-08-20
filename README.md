@@ -78,9 +78,8 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ---
 
-## 🔬 Publications & Open Source Recognition
+## 🔬 Publications & Recognition
 
-*   **PyTorch Core Contributor (2026)**: Merged **[PR #191092](https://github.com/pytorch/pytorch/pull/191092)** in the PyTorch core repository (reviewed by PyTorch Core Maintainers).
 *   **IEEE Published Paper (2025)**: *An Integrated GCN–GAT–AE Framework for Robust Anomaly Detection in Industrial IoT Environments* (Published in IEEE Xplore).
 *   **Vanderbilt Global Good Hackathon Finalist (2025)**: Co-developed **[ARIA Pathfinder](https://github.com/harsharajkumar-273/ARIA)**, a PostGIS-backed disaster response routing system utilizing Dijkstra with time-decaying edge weight equations.
 *   **GDSC Technical Lead (2024–2025)**: Co-lead of the Technical Division for Google Developer Student Club (GDSC), conducting technical workshops for 200+ student members.
