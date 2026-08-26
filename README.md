@@ -41,6 +41,10 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 **[pytorch/pytorch#191092](https://github.com/pytorch/pytorch/pull/191092)** — fixed an uncaught `ZeroDivisionError` in `torch.unravel_index`, reviewed and merged by PyTorch core maintainers. Six additional PRs across `distributed`, `linalg`, and BLAS code are currently in review.
 
+## 📄 Publication
+
+**[An Integrated GCN–GAT–AE Framework for Robust Anomaly Detection in Industrial IoT Environments](https://doi.org/10.1109/CICT67193.2025.11399172)** — co-authored with Suhani Panda, Sanjana B, and Saravanan Palani. Published in the *2025 IEEE 9th International Conference on Information and Communication Technology (CICT)*, Chennai, India (Dec 2025). A seven-stage hybrid GCN/GAT/Autoencoder framework for real-time IIoT anomaly detection, achieving 95.0% classification accuracy and 8.1ms inference latency on the Edge-IIoTset dataset.
+
 ---
 
 ## 💼 Professional Experience
@@ -85,7 +89,6 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 <!--
   TODO before publishing — confirm each of these with sources, or remove:
-  - "IEEE Published Paper (2025)" — could not be located on IEEE Xplore by title or author search; verify or remove.
   - "Vanderbilt Global Good Hackathon Finalist (2025)" — confirm.
   - "GDSC Technical Lead (2024–2025)" — confirm.
   See Career Intelligence Report for details.
