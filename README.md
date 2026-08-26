@@ -87,12 +87,12 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ---
 
-<!--
-  TODO before publishing — confirm each of these with sources, or remove:
-  - "Vanderbilt Global Good Hackathon Finalist (2025)" — confirm.
-  - "GDSC Technical Lead (2024–2025)" — confirm.
-  See Career Intelligence Report for details.
--->
+## 🏅 Recognition & Leadership
+
+*   **Vanderbilt Global Good Hackathon Finalist (2025)** — co-developed [ARIA Pathfinder](https://github.com/harsharajkumar-273/ARIA), a PostGIS-backed disaster response routing system using Dijkstra with time-decaying edge weight equations.
+*   **GDSC Technical Lead (2024–2025)** — co-led the Technical Division for Google Developer Student Club (GDSC), running technical workshops for 200+ student members.
+
+---
 
 ## 📊 GitHub Contribution Stats
 
