@@ -45,7 +45,7 @@ I'm a Graduate Computer Science student at **Vanderbilt University** specializin
 
 ## 💼 Professional Experience
 
-*   **Amplify GenAI Innovation (AGI) Center, Vanderbilt University** | *Software Engineer — GenAI Platform & Systems* <!-- TODO: confirm exact start date, currently reads as a future date — fix before publishing -->
+*   **Amplify GenAI Innovation (AGI) Center, Vanderbilt University** | *Software Engineer — GenAI Platform & Systems* (Aug 2026 – Present)
     *   Engineering scalable GenAI platform tooling, API integrations, and multi-agent workflows across Vanderbilt's College of Connected Computing.
     *   Building high-throughput LLM middleware services and vector indexing pipelines to accelerate AI application deployment.
 *   **VU-BEAM Lab, Vanderbilt University** | *Research Assistant* (Oct 2025 – Aug 2026)
