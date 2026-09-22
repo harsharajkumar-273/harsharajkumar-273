@@ -21,7 +21,7 @@ I build backend services, storage systems, and developer tools. I like work wher
 | | |
 |---|---|
 | **PyTorch contributor** | Fix merged into core ([#191092](https://github.com/pytorch/pytorch/pull/191092)); `all_reduce` avg-reduction backward approved by a distributed maintainer ([#190630](https://github.com/pytorch/pytorch/pull/190630)). |
-| **Open-source maintainer** | Reviewed and merged **112 pull requests** from 5 contributors to [lsm_tree](https://github.com/harsharajkumar-273/lsm_tree/pulls?q=is%3Apr+is%3Amerged) and [Proofdesk](https://github.com/harsharajkumar-273/Proofdesk/pulls?q=is%3Apr+is%3Amerged) during ELUSOC 2026. |
+| **Open-source maintainer** | Reviewed and merged **112 pull requests** from 4 contributors to [lsm_tree](https://github.com/harsharajkumar-273/lsm_tree/pulls?q=is%3Apr+is%3Amerged) and [Proofdesk](https://github.com/harsharajkumar-273/Proofdesk/pulls?q=is%3Apr+is%3Amerged) during ELUSOC 2026. |
 | **Publication** | Co-author, [*An Integrated GCN–GAT–AE Framework for Robust Anomaly Detection in Industrial IoT Environments*](https://doi.org/10.1109/CICT67193.2025.11399172), IEEE CICT 2025. |
 
 ---
