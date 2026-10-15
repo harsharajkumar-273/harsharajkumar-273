@@ -1,57 +1,48 @@
-<h1 align="center">Harsha Raj Kumar</h1>
+# Harsha Raj Kumar
 
-<p align="center">
-  <b>Software Engineer · Backend &amp; Distributed Systems</b><br/>
-  M.S. Computer Science @ Vanderbilt University · graduating April 2027 · open to 2027 new-grad roles
-</p>
+**Software Engineering · M.S. Computer Science at Vanderbilt · Expected April 2027**
 
-<p align="center">
-  <a href="https://hashadev.duckdns.org"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-hashadev-1B3A6B?style=flat-square"/></a>
-  <a href="https://linkedin.com/in/harsharajkumar273"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-harsharajkumar273-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:harsha.raj.kumar@vanderbilt.edu"><img alt="Email" src="https://img.shields.io/badge/Email-harsha.raj.kumar%40vanderbilt.edu-555?style=flat-square&logo=maildotru&logoColor=white"/></a>
-  <a href="https://huggingface.co/harsharajkumar273"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-harsharajkumar273-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/></a>
-</p>
+I build APIs, collaborative applications, storage systems, and developer tools. My work spans Python, TypeScript, and C++, with an interest in reliable systems and machine learning infrastructure.
 
-I build backend services, storage systems, and developer tools. I like work where the numbers can be checked: every benchmark below links to the script that produced it.
+Seeking **2027 new-graduate software engineering roles**. Based in Nashville and open to relocation.
 
----
+[Portfolio](https://hashadev.duckdns.org/) · [LinkedIn](https://linkedin.com/in/harsharajkumar273) · [Email](mailto:harsha.raj.kumar@vanderbilt.edu)
 
-### Highlights
+## Highlights
 
-| | |
-|---|---|
-| **PyTorch contributor** | Fix merged into core ([#191092](https://github.com/pytorch/pytorch/pull/191092)); `all_reduce` avg-reduction backward approved by a distributed maintainer ([#190630](https://github.com/pytorch/pytorch/pull/190630)). |
-| **Open-source maintainer** | Reviewed and merged **112 pull requests** from 4 contributors to [lsm_tree](https://github.com/harsharajkumar-273/lsm_tree/pulls?q=is%3Apr+is%3Amerged) and [Proofdesk](https://github.com/harsharajkumar-273/Proofdesk/pulls?q=is%3Apr+is%3Amerged) during ELUSOC 2026. |
-| **Publication** | Co-author, [*An Integrated GCN–GAT–AE Framework for Robust Anomaly Detection in Industrial IoT Environments*](https://doi.org/10.1109/CICT67193.2025.11399172), IEEE CICT 2025. |
+- **Two merged PyTorch contributions:** [C++ NCCL2 all_gather fix #200585](https://github.com/pytorch/pytorch/pull/200585) and [core validation fix #191092](https://github.com/pytorch/pytorch/pull/191092), both with regression tests.
+- **Deployed software:** [Proofdesk](https://proofdesk.duckdns.org/), used by a professor to publish and update an online textbook.
+- **Published developer tool:** [codegraph-engine on npm](https://www.npmjs.com/package/codegraph-engine).
 
----
+## Selected work
 
-### Selected work
+| Project | What I contributed | Evidence |
+| --- | --- | --- |
+| [Proofdesk](https://github.com/harsharajkumar-273/Proofdesk) | Co-developed and maintain a collaborative PreTeXt textbook editor: React/Monaco, Y.js/WebSockets, Node/Express, queued Docker builds, GitHub Actions CI/CD, and a later Pyodide browser preview. | [Deployed application](https://proofdesk.duckdns.org/) · [Architecture](https://github.com/harsharajkumar-273/Proofdesk/blob/main/ARCHITECTURE.md) |
+| [PulseStream](https://github.com/harsharajkumar-273/PulseStream) | Built telemetry ingestion and persistence, then addressed batch isolation, offset ordering, and conflicting replays. | **11 API-level failure scenarios**; documented local benchmark: **2,933 events/sec persisted** during a 30-second send window. [Method and limitations](https://github.com/harsharajkumar-273/PulseStream#benchmark) |
+| [CodeGraph](https://github.com/harsharajkumar-273/CodeGraph) | Built a TypeScript/Tree-sitter CLI for dependency graphs, call graphs, and change-impact traversal, with confidence labels for inferred edges. | [npm package](https://www.npmjs.com/package/codegraph-engine) · [Resolution methodology](https://github.com/harsharajkumar-273/CodeGraph/blob/main/docs/PRECISION.md) |
+| [LSM-Tree](https://github.com/harsharajkumar-273/lsm_tree) | Started and maintain a collaborative C++17 storage engine; contribute architecture, design review, and integration, with implementation credit documented for contributors. | **14 CTest programs** documented on main; explicit asynchronous vs durable acknowledgment contracts. [Durability](https://github.com/harsharajkumar-273/lsm_tree/blob/main/DURABILITY.md) · [Benchmarks](https://github.com/harsharajkumar-273/lsm_tree/blob/main/benchmarks/results.md) |
+| [Satya](https://github.com/harsharajkumar-273/Satya-) | Built a Playwright-based tool that compares UI success claims with API or reload-persisted state; includes a CLI, reports, and FastAPI service. | [Seeded-bug demonstrations and validation](https://github.com/harsharajkumar-273/Satya-/blob/main/docs/VALIDATION.md); production-scale validation remains future work. |
 
-| Project | What it is | Evidence |
-|---|---|---|
-| [**LSM-Tree Storage Engine**](https://github.com/harsharajkumar-273/lsm_tree) · C++17 | Collaborative key-value storage engine: lock-free SkipList MemTable, io_uring + O_DIRECT write-ahead log, blocked Bloom filters, leveled compaction. I lead and maintain it: architecture, design reviews, and integrating contributors' work. | **254K writes/sec**, 32 µs P99 · [benchmarks](https://github.com/harsharajkumar-273/lsm_tree/tree/main/benchmarks) |
-| [**Proofdesk**](https://github.com/harsharajkumar-273/Proofdesk) · TypeScript, React | Collaborative textbook IDE: Y.js CRDT editing over authenticated WebSockets, BullMQ/Redis build queue, resource-capped Docker workers, in-browser Pyodide preview. | **358 ms** median in-browser preview (local, 5 runs) · [benchmarks](https://github.com/harsharajkumar-273/Proofdesk/tree/main/benchmarks) |
-| [**PulseStream**](https://github.com/harsharajkumar-273/PulseStream) · TypeScript, Kafka | Telemetry ingestion: Express → Kafka → PostgreSQL with device-keyed partitions, Redis idempotency keys, retries, and a dead-letter queue. | **3,991 req/s**, 11 ms p50 / 34 ms p99 (local Docker) · [load test](https://github.com/harsharajkumar-273/PulseStream/tree/main/benchmarks) |
-| [**Satya**](https://github.com/harsharajkumar-273/Satya-) · Python, Playwright | Agent that runs UI flows and flags success messages the backend contradicts (a "Deleted!" toast with no DELETE call). FastAPI service, SQLite run history, JUnit reports. | 77 tests in CI |
-| [**ENGRAM**](https://github.com/harsharajkumar-273/ENGRAM) · TypeScript | Memory engine for LLM agents: decay, reinforcement, contradiction detection, and hot/warm/cold tiered vector retrieval with int8 cold storage. | 73% fewer vector comparisons at equal Recall@5 (synthetic) · [results](https://github.com/harsharajkumar-273/ENGRAM/blob/main/BENCHMARK_RESULTS.md) |
-| [**ReCL**](https://github.com/harsharajkumar-273/ReCL) · PyTorch | Self-supervised learning for ultrasound/EEG sim-to-real transfer (InfoNCE + NCC reconstruction loss), with 3-seed baselines and ablations. | [checkpoints](https://huggingface.co/harsharajkumar273/ReCL-Ultrasound-Checkpoints) · [dataset](https://huggingface.co/datasets/harsharajkumar273/ReCL-Ultrasound-Dataset) |
+Benchmarks above are local development measurements, not production capacity claims. See each repository for inputs, environment, limitations, and contributor credit.
 
----
+## Experience
 
-### Experience
+- **Amplify GenAI Innovation Center, Vanderbilt — Research Assistant, Software Engineering** · Aug 2026–present<br>
+  Implemented Projects across React/TypeScript and Python/AWS Lambda: project, file-manifest, and memory APIs backed by three DynamoDB tables, ownership checks, and server-side chat context. [Backend PR](https://github.com/gaiin-platform/amplify-genai-backend/pull/393) · [Frontend PR](https://github.com/gaiin-platform/amplify-genai-frontend/pull/335). Implementation was tested; release was pending at last confirmation.
+- **VU-BEAM Lab, Vanderbilt — Research Assistant** · Oct 2025–Aug 2026<br>
+  Implemented contrastive pretraining, supervised fine-tuning, and PyTorch data loading and augmentation for ultrasound research.
+- **Vanderbilt Mathematics Department — Research Assistant, Software Engineering** · Sep 2025–May 2026<br>
+  Developed Proofdesk for collaborative textbook authoring. Continued maintaining the project after the appointment, including the browser preview added in June 2026.
 
-- **Amplify GenAI Innovation Center, Vanderbilt** — Software Engineer, Backend & Platform Systems · *Aug 2026 – present*<br/>
-  FastAPI/Redis APIs for LLM tool calls and session state; pgvector hybrid retrieval that cut retrieval latency by 38%; QA that fixed 20+ defects.
-- **VU-BEAM Lab, Vanderbilt** — Research Assistant · *Oct 2025 – Aug 2026*<br/>
-  Built ReCL; async multi-GPU data loading that cut training time by 40%; Slurm sweeps on the ACCRE GPU cluster.
-- **Mathematics Department, Vanderbilt** — Software Engineer · *Sep 2025 – May 2026*<br/>
-  Built Proofdesk, a collaborative editor and sandboxed build system for PreTeXt textbooks.
+## Open source and research
 
-### Toolkit
+- **PyTorch distributed C++:** fixed NCCL2 `all_gather` treating distinct empty tensors as aliased buffers, preventing shape errors during uneven gathers; added distributed regression tests. [PR #200585](https://github.com/pytorch/pytorch/pull/200585) · [Landed commit](https://github.com/pytorch/pytorch/commit/e96d01e48edf389ee8e7e6e9bacfef1888dce711).
+- **PyTorch core:** fixed zero-dimension validation in `torch.unravel_index`, preserving empty-input behavior and adding regression tests. [PR #191092](https://github.com/pytorch/pytorch/pull/191092) · [Landed commit](https://github.com/pytorch/pytorch/commit/f594cadbd10e281c04c0e471b40c3b0569e47c43).
+- **Research publication:** co-author, [An Integrated GCN–GAT–AE Framework for Robust Anomaly Detection in Industrial IoT Environments](https://doi.org/10.1109/CICT67193.2025.11399172), IEEE CICT 2025.
 
-**Languages** C++17 · Python · TypeScript/JavaScript · Java · Go · SQL<br/>
-**Backend & data** Node.js/Express · FastAPI · PostgreSQL/pgvector · Redis · Kafka/Redpanda · BullMQ · SQLite<br/>
-**Systems & ML** Linux (io_uring) · Docker · AWS · GitHub Actions · Prometheus · Playwright · React · PyTorch
+## Tools I use
 
-<sub>Also: AWS Certified AI Practitioner · Microsoft Azure AI Fundamentals · Vanderbilt Global Good Hackathon finalist (2025, <a href="https://github.com/harsharajkumar-273/ARIA">ARIA</a>) · GDSC Technical Lead (2024–25)</sub>
+**Languages:** C++, Python, TypeScript/JavaScript, Java, SQL<br>
+**Applications and data:** React, Node.js/Express, FastAPI, PostgreSQL/pgvector, DynamoDB, Redis, Kafka/Redpanda, Y.js<br>
+**Infrastructure and ML:** Linux, Docker, Kubernetes, AWS Lambda, GitHub Actions CI/CD, Playwright, PyTorch
